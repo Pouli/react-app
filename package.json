@@ -1,0 +1,12 @@
+{
+  "name": "react-app",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pouli/react-app.git"
+  },
+  "author": "Pouli",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
