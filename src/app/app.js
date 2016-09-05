@@ -1,6 +1,17 @@
 'use strict';
 
-const name = 'Pouli';
-const sentence = `My name is ${name} MOTHERFUCKER !!!!`;
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-console.log(sentence);
+class MyComponent extends React.Component {
+    render () {
+        return (
+            <p>My name is Paul ;)</p>
+        );
+    }
+}
+
+ReactDOM.render(
+    <MyComponent/>,
+    document.getElementById('test')
+);
